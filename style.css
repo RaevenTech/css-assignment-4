@@ -83,6 +83,44 @@ body {
 }
 
 /*-- Info section -- */
+#info {
+  text-align: center;
+}
+
+.info_title {
+  font-size: 26px;
+}
+
+.info_items {
+  width: 680px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 150px;
+}
+
+.info_img {
+  border: 4px solid #3382f6;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.info_txt {
+  margin-top: -10px;
+  color: #707070;
+}
+
+
+
+
 /*-- Quote section -- */
 /*-- Call to action section -- */
 /*-- Footer section -- */
