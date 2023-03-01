@@ -1,5 +1,87 @@
+/*- 
+Dark backgroung: #1f2937;
+Hero main txt: 48px etra bold #f9faf8;
+Hero secondary txt/ header links: 18px #e5e7eb;
+Header logo: #f9faf8;
+info header title: 1f2937
+Quote background: #e5e7eb
+Quote txt: 36px italic #1f2937;
+Action background: #3882f6
+-*/
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /*-- Header section -- */
+#header {
+  text-align: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  margin-bottom: 0px;
+}
+
+#header_container {
+  width: 850px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_link {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
 /*-- Hero section -- */
+#hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 350px;
+  margin-top: 0px;
+}
+
+#hero_container {
+  width: 850px;
+  margin: 0px auto;
+  padding-top: 50px;
+  ;
+}
+
+#hero_img {
+  float: right;
+}
+
+#hero_title {
+  margin-top: 0px;
+  font-size: 48px;
+  font-weight: 800;
+  color: chocolate;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 5px black;
+  line-height: 45px;
+}
+
+.hero_txt {
+  color: rgb(160, 80, 24);
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.hero_btn {
+  background: transparent;
+  border: 1px solid rgb(160, 80, 24);
+  padding: 6px 20px;
+  color: rgb(160, 80, 24);
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 5px coral;
+}
+
 /*-- Info section -- */
 /*-- Quote section -- */
 /*-- Call to action section -- */
