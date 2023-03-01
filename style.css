@@ -62,7 +62,7 @@ body {
   font-weight: 800;
   color: chocolate;
   margin-bottom: 0px;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 3px black;
   line-height: 45px;
 }
 
@@ -84,6 +84,7 @@ body {
 
 /*-- Info section -- */
 #info {
+  margin: 40px 0px;
   text-align: center;
 }
 
@@ -118,9 +119,65 @@ body {
   color: #707070;
 }
 
-
-
-
 /*-- Quote section -- */
+#quote {
+  background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote_author {
+  font-size: 10px;
+  margin-left: 20px;
+}
+
 /*-- Call to action section -- */
+#action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px;
+}
+
+#action_container {
+  background-color: #3382f6;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 10px 80px;
+  border-radius: 10px;
+}
+
+.action_instructions {
+  color: #f9faf8;
+}
+
+.action_title {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.action_txt {
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.action_btn {
+  background: transparent;
+  color: #f9faf8;
+  border: 1px solid #f9faf8;
+  border-radius: 5px;
+  padding: 4px 20px;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
 /*-- Footer section -- */
+#footer {
+  background-color: #1f2937;
+  color: #707070;
+  text-align: center;
+  padding: 10px;
+}
